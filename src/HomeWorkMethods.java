@@ -10,7 +10,8 @@ public class HomeWorkMethods {
             System.out.println(year + " это високосный год.");
         } else {
             System.out.println(year + " это не високосный год");
-        }}
+        }
+    }
 
     public static void getDeviceLink(int osType, int deviceYear) {
         String osString = osType == 0 ? "iOS" : "Android";
